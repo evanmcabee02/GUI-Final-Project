@@ -69,7 +69,7 @@
             lblMeterConversion.Text = decSumOfMeters & " Kilometers is " & decConversion.ToString("F2") & " Centimeters "
         ElseIf radCentimeterMeter.Checked Then
             decConversion = decSumOfMeters * 0.01
-            lblMeterConversion.Text = decSumOfMeters & " Centimeters is " & decConversion.ToString("F5") & " Meters "
+            lblMeterConversion.Text = decSumOfMeters & " Centimeters is " & decConversion.ToString("F2") & " Meters "
         ElseIf radCentimeterKilometer.Checked Then
             decConversion = decSumOfMeters * 0.00001
             lblMeterConversion.Text = decSumOfMeters & " Centimeters is " & decConversion.ToString("F5") & " Kilometers "

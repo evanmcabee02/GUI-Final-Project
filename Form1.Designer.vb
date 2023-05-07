@@ -54,7 +54,7 @@ Partial Class frmMeterCalculator
         '
         'btnMeters
         '
-        Me.btnMeters.BackColor = System.Drawing.Color.LemonChiffon
+        Me.btnMeters.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.btnMeters.Font = New System.Drawing.Font("Segoe UI Black", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMeters.Location = New System.Drawing.Point(537, 93)
         Me.btnMeters.Name = "btnMeters"
@@ -65,9 +65,9 @@ Partial Class frmMeterCalculator
         '
         'btnClear
         '
-        Me.btnClear.BackColor = System.Drawing.Color.LemonChiffon
+        Me.btnClear.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.btnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(821, 400)
+        Me.btnClear.Location = New System.Drawing.Point(845, 400)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(156, 48)
         Me.btnClear.TabIndex = 8
@@ -99,9 +99,9 @@ Partial Class frmMeterCalculator
         '
         Me.picCalculator.BackgroundImage = Global.GUI_Final_Project.My.Resources.Resources.calc
         Me.picCalculator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.picCalculator.Location = New System.Drawing.Point(12, 21)
+        Me.picCalculator.Location = New System.Drawing.Point(2, -2)
         Me.picCalculator.Name = "picCalculator"
-        Me.picCalculator.Size = New System.Drawing.Size(488, 427)
+        Me.picCalculator.Size = New System.Drawing.Size(501, 450)
         Me.picCalculator.TabIndex = 11
         Me.picCalculator.TabStop = False
         '
@@ -188,9 +188,9 @@ Partial Class frmMeterCalculator
         '
         'btnExit
         '
-        Me.btnExit.BackColor = System.Drawing.Color.LemonChiffon
+        Me.btnExit.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(860, 544)
+        Me.btnExit.Location = New System.Drawing.Point(860, 504)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(117, 35)
         Me.btnExit.TabIndex = 13
