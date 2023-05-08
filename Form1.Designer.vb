@@ -93,7 +93,7 @@ Partial Class frmMeterCalculator
         Me.lblSurvey.Name = "lblSurvey"
         Me.lblSurvey.Size = New System.Drawing.Size(468, 45)
         Me.lblSurvey.TabIndex = 6
-        Me.lblSurvey.Text = "Meter Conversion Caluclator"
+        Me.lblSurvey.Text = "Meter Conversion Calculator"
         '
         'picCalculator
         '

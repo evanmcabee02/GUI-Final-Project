@@ -57,7 +57,7 @@
     Private Sub ConversionCalculate(ByVal decConversion As Decimal, ByVal decSumOfMeters As Decimal)
         If radMeterKilometer.Checked Then
             decConversion = decSumOfMeters * 0.001
-            lblMeterConversion.Text = decSumOfMeters & " Meters is " & decConversion.ToString("F2") & " Kilometers "
+            lblMeterConversion.Text = decSumOfMeters & " Meters is " & decConversion.ToString("F3") & " Kilometers "
         ElseIf radMeterCentimeter.Checked Then
             decConversion = decSumOfMeters * 100
             lblMeterConversion.Text = "Meters to Centimeters " & decConversion.ToString("F2") & " Centimeters "
